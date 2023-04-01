@@ -1,0 +1,19 @@
+ALGORITHM swap(VAR a:INTEGER, VAR b: INTEGER)
+VAR
+    temp: INTEGER;
+BEGIN
+    temp= a;
+    a:=b;
+    b:=temp;
+
+END
+procedure insertionSort(A: list of sortable items)
+n = length(A)
+FOR i = 1  to n - 1 do 
+    j = i 
+    WHILE j > 0 and A[j-1]
+    swap(A[j], A[j-1])
+    j = j -1
+    END_WHILE
+END_FOR
+end procedure
